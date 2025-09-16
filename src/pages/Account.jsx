@@ -105,7 +105,7 @@ const Account = () => {
                 className={`flex-1 py-2 text-sm font-semibold rounded-md transition-colors ${
                   mode === m
                     ? "bg-green-800 text-white shadow"
-                    : "bg-gray-300 text-black hover:bg-gray-200"
+                    : "bg-gray-700 text-black hover:bg-gray-200"
                 }`}
               >
                 {m === "login"
@@ -142,7 +142,7 @@ const Account = () => {
             <input
               type="email"
               name="email"
-              placeholder="Email Address"
+              placeholder="Alamat Email"
               value={formData.email}
               onChange={handleChange}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 outline-none"
@@ -153,7 +153,7 @@ const Account = () => {
               <input
                 type="tel"
                 name="phone"
-                placeholder="Phone Number"
+                placeholder="No. Handphone"
                 value={formData.phone}
                 onChange={handleChange}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 outline-none"
@@ -176,7 +176,7 @@ const Account = () => {
               <input
                 type="password"
                 name="confirmPassword"
-                placeholder="Confirm Password"
+                placeholder="Konfirmasi Password"
                 value={formData.confirmPassword}
                 onChange={handleChange}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 outline-none"

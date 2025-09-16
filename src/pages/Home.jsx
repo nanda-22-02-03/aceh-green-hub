@@ -83,7 +83,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex flex-col justify-center space-y-4">
-              <div className="w-full h-105 sm:h-85 rounded-xl shadow-md flex items-center justify-center">
+              <div className="w-full h-107 sm:h-85 rounded-xl shadow-md flex items-center justify-center">
                 <img
                   src="/images/home/pintu_aceh.jpg"
                   alt="pintu_aceh"
